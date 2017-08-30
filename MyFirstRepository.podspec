@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/iseerain/MyFirstRepository"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
-  s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.author             = { "iseerain" => "balanceyunfei@foxmail.com" }
   # Or just: s.author    = "iseerain"
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios
   s.platform     = :ios, "8.0"
 
-  # s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "8.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
-  # s.framework  = "SomeFramework"
+  s.framework  = "Foundation"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
