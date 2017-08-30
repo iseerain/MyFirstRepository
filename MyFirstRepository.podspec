@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "https://iseerain/MyFirstRepository.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/iseerain/MyFirstRepository.git", :tag => "#{s.version}" }
 
   s.source_files  = "MyFirstRepository/Classes/*"
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
