@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
   s.author             = { "iseerain" => "balanceyunfei@foxmail.com" }
-  # Or just: s.author    = "kennyzzzzzz"
-  # s.authors            = { "kennyzzzzzz" => "zhouxiaochuan@gmail.com" }
-  # s.social_media_url   = "http://twitter.com/kennyzzzzzz"
+  # Or just: s.author    = "iseerain"
+  # s.authors            = { "iseerain" => "balanceyunfei@foxmail.com" }
+  # s.social_media_url   = "http://twitter.com/iseerain"
 
   # s.platform     = :ios
   s.platform     = :ios, "8.0"
