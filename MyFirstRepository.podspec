@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MyFirstRepository"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "This is a simple test."
 
   s.description  = <<-DESC
